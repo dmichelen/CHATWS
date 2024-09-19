@@ -7,7 +7,7 @@ import responses  # Importamos el archivo de respuestas
 app = Flask(__name__)
 
 # Lista de números de teléfono permitidos
-allowed_numbers = ["18494731948@c.us", "18498168140@c.us", "18299011157@c.us", "18296784895@c.us"]
+allowed_numbers = ["18494731948@c.us", "18498168140@c.us", "18299011157@c.us"]
 
 class SessionManager:
     def __init__(self):
